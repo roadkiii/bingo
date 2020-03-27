@@ -16,6 +16,9 @@ function setSquare(thisSquare) {
 	do {
 		let num = getNewNum();
 
+		console.log(colPlace[thisSquare] * 10);
+		console.log(num);
+
 		newNum =(colPlace[thisSquare] * 10) + num + 1;
 	}
 	while (usedNums[newNum]);
@@ -37,7 +40,7 @@ function setSquare(thisSquare) {
 }
 
 function getNewNum() {
-	return Math.floor(Math.random() * 25);
+	return Math.floor(Math.random() * 10);
 	
 }
 
