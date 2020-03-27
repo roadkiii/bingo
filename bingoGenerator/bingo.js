@@ -1,7 +1,7 @@
 var allNumbers = [];
 
 function createNumbersArray(){
-  for(let i = 0; i < 85; i++){
+  for(let i = 0; i < 65; i++){
     allNumbers.push(i);
   }
 }

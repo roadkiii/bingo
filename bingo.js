@@ -14,8 +14,9 @@ function setSquare(thisSquare) {
 	var colPlace =new Array(0,1,2,3,4,0,1,2,3,4,0,1,3,4,0,1,2,3,4,0,1,2,3,4);
 	
 	do {
-    let num = getNewNum();
-		newNum =(colPlace[thisSquare] * 15) + num + 1;
+		let num = getNewNum();
+
+		newNum =(colPlace[thisSquare] * 10) + num + 1;
 	}
 	while (usedNums[newNum]);
 	
